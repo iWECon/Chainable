@@ -1,7 +1,7 @@
 import UIKit
 
 // extension UILabel: Chain { }
-extension Chainable where Base: UILabel {
+public extension Chainable where Base: UILabel {
     
     @discardableResult
     func text(_ value: String?) -> Chainable<Base> {

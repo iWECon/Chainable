@@ -1,6 +1,6 @@
 import UIKit
 
-extension Chainable where Base: UITableView {
+public extension Chainable where Base: UITableView {
     @discardableResult
     func dataSource(_ ds: UITableViewDataSource?) -> Chainable<Base> {
         base.dataSource = ds

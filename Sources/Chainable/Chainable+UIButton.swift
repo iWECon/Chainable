@@ -1,6 +1,6 @@
 import UIKit
 
-extension Chainable where Base: UIControl {
+public extension Chainable where Base: UIControl {
     
     @discardableResult
     func enabled(_ value: Bool) -> Chainable<Base> {
@@ -42,7 +42,7 @@ extension Chainable where Base: UIControl {
 
 extension UIControl.State: Hashable { }
 
-extension Chainable where Base: UIButton {
+public extension Chainable where Base: UIButton {
     
     @discardableResult
     func contentEdge(_ insets: UIEdgeInsets) -> Chainable<Base> {

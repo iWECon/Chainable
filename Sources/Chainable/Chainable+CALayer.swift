@@ -1,6 +1,6 @@
 import UIKit
 
-extension Chainable where Base: CALayer {
+public extension Chainable where Base: CALayer {
     
     @discardableResult
     func borderColor(_ color: UIColor?) -> Chainable<Base> {

@@ -1,6 +1,6 @@
 import UIKit
 
-extension Chainable where Base: UICollectionView {
+public extension Chainable where Base: UICollectionView {
     
     @discardableResult
     func collectionViewLayout(_ layout: UICollectionViewLayout) -> Chainable<Base> {

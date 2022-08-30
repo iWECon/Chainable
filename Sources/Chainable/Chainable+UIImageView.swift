@@ -1,6 +1,6 @@
 import UIKit
 
-extension Chainable where Base: UIImageView {
+public extension Chainable where Base: UIImageView {
     
     @discardableResult
     func image(_ image: UIImage?) -> Chainable<Base> {

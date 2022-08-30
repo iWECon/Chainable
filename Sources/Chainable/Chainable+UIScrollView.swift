@@ -1,6 +1,6 @@
 import UIKit
 
-extension Chainable where Base: UIScrollView {
+public extension Chainable where Base: UIScrollView {
     
     @discardableResult
     func content(offset: CGPoint) -> Chainable<Base> {

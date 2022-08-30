@@ -1,7 +1,7 @@
 import UIKit
 
 extension UIView: Chain { }
-extension Chainable where Base: UIView {
+public extension Chainable where Base: UIView {
    
     @discardableResult
     func background(_ color: UIColor) -> Chainable<Base> {
